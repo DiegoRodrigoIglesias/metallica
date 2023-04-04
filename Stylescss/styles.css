@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Rock Salt', cursive;
+    background-color: rgb(7, 7, 7);
+}
+
+
+.header1 {
+    background-color: rgb(55, 56, 56);
+    height: 60px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+
+}
+
+.header1 nav ul li {
+    display: inline;
+}
+
+.header1 nav ul li a {
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header1 a:hover {
+    color: rgb(149, 226, 33);
+
+}
+
+.portadaMetallica1 {
+    background-image: url(../images/metallicalogo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.cuerpo1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+.Albumes {
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.discoKill {
+    height: 220px;
+    width: 220px;
+    background-image: url(/images/discokill.jpg);
+    background-size: cover;
+    margin: 10px;
+    border-radius: 5px;
+    opacity: 1;
+    transition: 3s;
+}
+
+.discoKill h2 {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(13, 14, 13);
+    opacity:0;
+}
+
+.discoKill:hover {
+    opacity: 0.5;
+    
+}
+
+.discoKill h2:hover {
+    text-decoration: none;
+    color: rgb(229, 233, 13);
+    font-size: 50px ;
+    opacity: 1;
+
+}
+.discoRide {
+
+    height: 220px;
+    width: 220px;
+    margin: 10px;
+    border-radius: 5px;
+    background-image: url(/images/discoride.jpg)
+    
+}
+
+
+
+.discoMaster {
+
+    height: 220px;
+    width: 220px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.discoAndJustice {
+
+    height: 220px;
+    width: 220px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.discoBlack {
+
+    height: 220px;
+    width: 220px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.discoSaint {
+
+    height: 220px;
+    width: 220px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.asideMiembros {
+    background-image: url(../images/asidemetallica.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cuerpo2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+
+
+}
+
+.estudioGrabacion {
+    color: white;
+    width: 30%;
+    margin-left: 10px;
+}
+
+.parrafo1 {
+    width: 30%;
+    margin: 10px;
+    margin-top: 30px;
+    color: white;
+    font-size: larger;
+}
+
+.footer {
+    background-color: rgb(138, 141, 141);
+    height: 55vh;
+    /* margin-bottom: 10px; */
+
+}
+
+.classfooter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logofooter img {
+    height: 70%;
+    margin-top: 30px;
+}
+
+.redesSociales img {
+    margin-top: 40px;
+    padding: 5px;
+    height: 50px;
+
+}
+
+.h2footer {
+    display: flex;
+    justify-content: center;
+    color: rgb(253, 17, 17);
+    font-size: 20px;
+    text-decoration: none;
+}
